@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: blue;
     position: fixed;
     top:50vh;
     left: 50vw;
