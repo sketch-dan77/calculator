@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Ryuto/favicon.ico">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./Ryuto/stiyle.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="result-wrap">
+            <span>=</span>
+            <span id="result">0</span>
+        </div>
+        <div class="buttons">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line">
+                <button class="primary-color" id="CE">CE</button> </button>
+                <button class="primary-color" id="mp">+/-</button>
+                <button class="primary-color" id="percent">%</button>
+                <button class="primary-color operation" data-value="/" >/</button>
+            </div>
+            <div class="line">
+                <button class="secondary-color number" data-value="7">7</button>
+                <button class="secondary-color number" data-value="8">8</button>
+                <button class="secondary-color number" data-value="9">9</button>
+                <button class="primary-color operation" data-value="*">*</button>
+            </div>
+            <div class="line">
+                <button class="secondary-color number" data-value="4">4</button>
+                <button class="secondary-color number" data-value="5">5</button>
+                <button class="secondary-color number" data-value="6">6</button>
+                <button class="primary-color operation" data-value="-">-</button>
+            </div>
+            <div class="line-double">
+                <div class="buttons">
+                    <div class="line">
+                        <button class="secondary-color number" data-value="1">1</button>
+                        <button class="secondary-color number" data-value="2">2</button>
+                        <button class="secondary-color number" data-value="3">3</button>   
+                    </div>
+                    <div class="line">
+                        <button class="secondary-color number" data-value="0">0</button>
+                        <button class="secondary-color number" data-value=".">.</button>
+                        <button class="primary-color" id="equal">=</button>
+                    </div>
+                </div>
+                <div>
+                    <button class="plus primary-color operation" data-value="+">+</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="./Ryuto/main.js"></script>
+</body>
+</html>
